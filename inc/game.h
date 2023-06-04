@@ -3,5 +3,6 @@
 
     #include "graphics.h"
     #include "typedefs.h"
+    #include "sprites.h"
 
 #endif /* !GAME_H_ */

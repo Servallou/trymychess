@@ -11,6 +11,7 @@ int main()
 {
     sfVideoMode mode = {1920, 1080, 32};
     game_t game;
+    sfSprite *board = initBoard();
 
     game.window = sfRenderWindow_create(mode, "trymychess", sfResize | sfClose, NULL);
     if (!game.window)
@@ -23,6 +24,7 @@ int main()
                 sfRenderWindow_close(game.window);
         }
         sfRenderWindow_clear(game.window, sfWhite);
+        sfRenderWindow_drawSprite(game.window, board, NULL);
         sfRenderWindow_display(game.window);
     }
     sfRenderWindow_destroy(game.window);

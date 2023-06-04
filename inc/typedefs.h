@@ -3,6 +3,9 @@
 
     #include "graphics.h"
 
+    #define WWIDTH 1920
+    #define WHEIGHT 1080
+
 typedef struct sprite_s {
     sfSprite *map;
     sfSprite *player;
