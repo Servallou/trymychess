@@ -5,26 +5,26 @@
 ** main
 */
 
-#include "graphics.h"
+#include "game.h"
 
 int main()
 {
     sfVideoMode mode = {1920, 1080, 32};
-    sfRenderWindow* window;
-    sfEvent event;
-    window = sfRenderWindow_create(mode, "trymychess", sfResize | sfClose, NULL);
-    if (!window)
+    game_t game;
+
+    game.window = sfRenderWindow_create(mode, "trymychess", sfResize | sfClose, NULL);
+    if (!game.window)
         return 84;
-    while (sfRenderWindow_isOpen(window))
+    while (sfRenderWindow_isOpen(game.window))
     {
-        while (sfRenderWindow_pollEvent(window, &event))
+        while (sfRenderWindow_pollEvent(game.window, &game.event))
         {
-            if (event.type == sfEvtClosed)
-                sfRenderWindow_close(window);
+            if (game.event.type == sfEvtClosed)
+                sfRenderWindow_close(game.window);
         }
-        sfRenderWindow_clear(window, sfBlack);
-        sfRenderWindow_display(window);
+        sfRenderWindow_clear(game.window, sfWhite);
+        sfRenderWindow_display(game.window);
     }
-    sfRenderWindow_destroy(window);
+    sfRenderWindow_destroy(game.window);
     return 0;
 }
