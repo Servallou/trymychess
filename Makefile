@@ -10,7 +10,7 @@ CC	=	gcc
 SRC_MAIN	=	src/main.c	\
 				src/board.c	\
 
-NAME_MAIN	=	pawndev0.0.0_3
+NAME_MAIN	=	pawndev0.0.0_4
 
 CFLAGS = -Wall -Wextra -I./inc/ -I./lib/include -I./lib/my/external_files/inc
 

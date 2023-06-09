@@ -5,10 +5,10 @@ Those versions in the versions/ file are MacOS with an arm64 arch only due to th
 
 ### Features
 
-    - pawndev0.0.0 is about to make an unfunctionnal board.
+    - pawndev0.0.0 : The Board Update.
 
 ### Versions
 
-    - from pawndev0.0.0_0 to pawndev0.0.0_3 : making the chessboard
+    - from pawndev0.0.0_0 to pawndev0.0.0_4 : making the chessboard
 
 *Last version is -> pawndev0.0.0_3*
