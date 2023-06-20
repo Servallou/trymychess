@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "typedefs.h": "c"
+        "typedefs.h": "c",
+        "game.h": "c",
+        "stdio.h": "c"
     }
 }

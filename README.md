@@ -11,4 +11,6 @@ Those versions in the versions/ file are MacOS with an arm64 arch only due to th
 
     - from pawndev0.0.0_0 to pawndev0.0.0_4 : making the chessboard
 
-*Last version is -> pawndev0.0.0_3*
+    - from pawndev0.0.1_0 to ... : making pawns placement
+
+*Last version is -> pawndev0.0.1_0*

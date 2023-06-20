@@ -9,8 +9,14 @@ CC	=	gcc
 
 SRC_MAIN	=	src/main.c	\
 				src/board.c	\
+				src/pawns/pawn.c	\
+				src/pawns/rook.c	\
+				src/pawns/knight.c	\
+				src/pawns/bishop.c	\
+				src/pawns/queen.c	\
+				src/pawns/king.c	\
 
-NAME_MAIN	=	pawndev0.0.0_4
+NAME_MAIN	=	pawndev0.0.1_0
 
 CFLAGS = -Wall -Wextra -I./inc/ -I./lib/include -I./lib/my/external_files/inc
 
