@@ -56,46 +56,6 @@ static boardPawn_t init_whitePawns(sfFloatRect *area)
     return whitePawns;
 }
 
-static void draw_blackPawn(sfRenderWindow *window, boardPawn_t *blackPawns)
-{
-    sfRenderWindow_drawRectangleShape(window, blackPawns->a1Rook, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->b1Knight, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->c1Bishop, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->d1King, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->e1Queen, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->f1Bishop, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->g1Knight, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->h1Rook, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->a2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->b2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->c2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->d2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->e2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->f2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->g2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, blackPawns->h2Pawn, NULL);
-}
-
-static void draw_whitePawn(sfRenderWindow *window, boardPawn_t *whitePawns)
-{
-    sfRenderWindow_drawRectangleShape(window, whitePawns->a1Rook, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->b1Knight, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->c1Bishop, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->d1King, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->e1Queen, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->f1Bishop, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->g1Knight, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->h1Rook, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->a2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->b2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->c2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->d2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->e2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->f2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->g2Pawn, NULL);
-    sfRenderWindow_drawRectangleShape(window, whitePawns->h2Pawn, NULL);
-}
-
 int main()
 {
     sfVideoMode mode = {1920, 1080, 32};

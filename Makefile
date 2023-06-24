@@ -15,8 +15,10 @@ SRC_MAIN	=	src/main.c	\
 				src/pawns/bishop.c	\
 				src/pawns/queen.c	\
 				src/pawns/king.c	\
+				src/draws/draw_blackPawns.c	\
+				src/draws/draw_whitePawns.c	\
 
-NAME_MAIN	=	pawndev0.0.1_0
+NAME_MAIN	=	pawndev0.0.1_1
 
 CFLAGS = -Wall -Wextra -I./inc/ -I./lib/include -I./lib/my/external_files/inc
 
@@ -41,5 +43,8 @@ fclean: clean
 	rm -f $(NAME_MAIN)
 
 re: fclean clean all
+
+version:
+	@echo $(NAME_MAIN)
 
 .PHONY: re fclean clean all
