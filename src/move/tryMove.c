@@ -1,6 +1,6 @@
 #include "move.h"
 
-extern void tryMove(game_t *game)
+extern void tryMove(boardPawn_t *blackPawn, boardPawn_t *whitePawn)
 {
     
 }

@@ -18,7 +18,7 @@ SRC_MAIN	=	src/main.c	\
 				src/draws/draw_blackPawns.c	\
 				src/draws/draw_whitePawns.c	\
 
-NAME_MAIN	=	pawndev0.0.1_1
+NAME_MAIN	=	pawndev0.0.1_2
 
 CFLAGS = -Wall -Wextra -I./inc/ -I./lib/include -I./lib/my/external_files/inc
 
