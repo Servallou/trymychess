@@ -4,8 +4,8 @@
     #include "graphics.h"
     #include "typedefs.h"
 
-void draw_whitePawn(sfRenderWindow *window, boardPawn_t *whitePawns);
+void draw_whitePawn(sfRenderWindow *window, sfRectangleShape **whitePawns);
 
-void draw_blackPawn(sfRenderWindow *window, boardPawn_t *blackPawns);
+void draw_blackPawn(sfRenderWindow *window, sfRectangleShape **blackPawns);
 
 #endif /* !DRAW_H_ */

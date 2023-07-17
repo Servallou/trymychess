@@ -2,6 +2,10 @@
     "files.associations": {
         "typedefs.h": "c",
         "game.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "sprites.h": "c",
+        "draw.h": "c",
+        "graphics.h": "c"
     }
 }
